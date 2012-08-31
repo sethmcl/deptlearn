@@ -1,0 +1,33 @@
+#game-title {
+	display: block;
+	margin: 50px auto 20px auto;
+	padding-bottom: 10px;
+	width: 400px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+
+#breakball {
+	display: block;
+	margin: auto;
+	border: 1px solid #000;
+}
+
+#over {
+	display: none;
+	margin: 100px auto;
+	width: 200px;
+	font-size: 40px;
+	color: #006699;
+}
+
+#over.show {
+	display: block;
+}
+
+button {
+	display: block;
+	margin: 100px auto;
+	width: 600px;
+	height: 300px;
+}
