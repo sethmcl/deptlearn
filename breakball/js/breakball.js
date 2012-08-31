@@ -199,7 +199,7 @@ function updateScreen() {
 	moveBall();
   movePaddle();
 
-  generateBrick();
+  generateBricks();
 	drawPaddle();
 	drawBall();
 };
