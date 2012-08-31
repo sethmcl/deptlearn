@@ -196,10 +196,10 @@ function updateScreen() {
 	breakball.clearRect(0, 0, mainCanvas.width, mainCanvas.height);
 	
 	//update canvas
-	generateBricks();
 	moveBall();
   movePaddle();
 
+  generateBrick();
 	drawPaddle();
 	drawBall();
 };
